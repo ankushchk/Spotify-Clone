@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login > img {
+  width: 60%;
+}
+
+.login > a {
+  padding: 20px;
+  border-radius: 99px;
+  background-color: #1db954;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.login > a:hover {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
